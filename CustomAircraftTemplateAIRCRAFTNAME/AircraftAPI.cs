@@ -45,7 +45,7 @@ internal class AircraftAPI
 
     public static void AddResourceToRemove(string resourcePath)
     {
-
+        ResourcesToRemove.Add(resourcePath);
     }
 
     class AsyncVehicleLoader : MonoBehaviour
